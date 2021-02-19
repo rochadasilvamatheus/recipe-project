@@ -29,12 +29,8 @@ import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component
     RecipesStartComponent,
     RecipeEditComponent
   ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, FormsModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
