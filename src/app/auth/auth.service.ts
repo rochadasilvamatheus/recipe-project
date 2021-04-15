@@ -19,10 +19,10 @@ export interface AuthResponseData {
 @Injectable({ providedIn: 'root' })
 export class AuthService {
   /**
-   *  Use for a data service as an angular service often initializes before
-   *  component and behavior subject ensures that the component consuming
-   *  the service receives the last updated data even if there are no new updates since the
-   *  component's subscription to this data.
+   * Use for a data service as an angular service often initializes before
+   * component and behavior subject ensures that the component consuming
+   * the service receives the last updated data even if there are no new updates since the
+   * component's subscription to this data.
    */
   user = new BehaviorSubject<User>(null);
   private tokenExpirationTimer: any;
